@@ -17,7 +17,7 @@ The goal of this project is to:
 Ensure the following packages are installed:
 ```bash
 sudo apt update
-sudo apt install git cmake gfortran build-essential
+sudo apt install git cmake gfortran build-essential octave
 
 ####To download and compile NJOY2016:
 
