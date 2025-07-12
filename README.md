@@ -10,5 +10,21 @@ The goal of this project is to:
 - Perform a systematic comparison between the two outputs.
 - Identify discrepancies and evaluate consistency across different energy groups and reactions.
 
-## 📁 Directory Structure
+## 🔧 Installation (Linux / Ubuntu)
+
+### 📋 Prerequisites
+
+Ensure the following packages are installed:
+
+```bash
+sudo apt update
+sudo apt install git cmake gfortran build-essential
+To download and compile NJOY2016:
+```bash
+git clone https://github.com/njoy/NJOY2016.git
+cd NJOY2016
+mkdir build
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release ../
+make -j$(nproc)
 
