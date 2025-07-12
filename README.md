@@ -41,3 +41,25 @@ csh ./compile_all.csh
 cd sample/run
 csh ./run_frendy.csh
 ```
+### Running
+Frendy runnig :
+```bash
+git clone https://github.com/emilmammadzada99/njoy-frendy-comparison.git
+cd njoy-frendy-comparison/fr/
+:~/fr$ cp n-092_U_238.endf tape20
+:~/fr$ ~/frendy_20241030/frendy/main/frendy.exe n-092_U_238.dat
+```
+NJOY runnig:
+```bash
+cd njoy-frendy-comparison/nj/
+:~/fr$ cp n-092_U_238.endf tape20
+:~/fr$ njoy < n-092_U_238.dat
+```
+Plotting :
+```bash
+cd njoy-frendy-comparison/
+:~/njoy-frendy-comparison$ chmod +x compare.csh   
+:~/njoy-frendy-comparison$ ./compare.csh # created out directory in njoy-frendy-comparison for comparison
+:~/njoy-frendy-comparison$ chmod +x  plot_all.csh
+:~/njoy-frendy-comparison$ ./plot_all.csh # created ace_plot  ace_plot_only directory in njoy-frendy-comparison for comparison
+```
