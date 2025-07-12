@@ -1,0 +1,11 @@
+ace_file_generation_fast_mode  // Processing mode flg
+   nucl_file_name          tape20
+   temp                    296.0
+   ace_file_name           tape30
+   mcnp_dir_file_name      tape31
+   ace_label_data          "ACE file for ENDF U238"
+   suffix_id               0.30
+   //write_pendf_resonance_reconstruction    tape21
+   //write_pendf_doppler_broadening          tape22
+   //write_pendf_gas_prod_xs                 tape23
+   write_pendf_probability_table             tape24
