@@ -91,6 +91,29 @@ comp_out single_out
 ![Comparison Plot-3](gnuplot/comp_plot/ace_plot_only/comp_result_tape30_0001_xs_only.png)
 ![Comparison Plot-4](gnuplot/single_plot/plot/tape30_0001_xs.png)
 
+### 📦 Contents of `tape30`
+
+The `tape30` file contains:
+
+- Processed neutron cross sections
+- Angular and energy distributions
+- Reaction data for neutron interactions
+- Thermal scattering law (TSL) data (if applicable)
+
+### 🛠️ Usage
+
+`tape30` is compatible with various Monte Carlo transport codes:
+
+- **MCNP** — used with `xsdir` file
+- **SERPENT** — can directly read ACE files
+- **OpenMC** — requires conversion to HDF5 (`.h5`) format using OpenMC’s tools
+
+### 📝 Notes
+
+- The name `tape30` is conventional; you can rename it to fit your transport code's requirements.
+- TSL data may also involve `tape33` and `tape35`, but the consolidated ACE output is placed in `tape30`.
+
+
 ## 📚 References
 
 - [NJOY2016 GitHub Repository](https://github.com/njoy/NJOY2016)
