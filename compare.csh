@@ -1,7 +1,7 @@
 #!/bin/csh
 
 # FRENDY'nin doğru yolu
-set EXE       = /home/emil/frendy_20241030/frendy/main/frendy.exe
+set EXE       = /path/frendy_20241030/frendy/main/frendy.exe
 
 # ACE dosyalarının bulunduğu klasörler
 set ACE_DIR_F = ./fr
