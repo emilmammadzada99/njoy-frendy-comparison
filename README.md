@@ -28,6 +28,16 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make -j$(nproc)
 ```
-###FRENDY
+### FRENDY
 Ensure the following packages are installed:
 ```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install tcsh build-essential gcc libboost-all-dev liblapack-dev libblas-dev libeigen3-dev
+wget https://rpg.jaea.go.jp/download/frendy/frendy_20241030.tar.gz
+tar -xvzf frendy_YYYYMMDD.tar.gz
+cd frendy_YYYYMMDD/frendy
+csh ./compile_all.csh
+cd sample/run
+csh ./run_frendy.csh
+```
