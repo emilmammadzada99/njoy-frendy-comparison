@@ -15,12 +15,12 @@ The goal of this project is to:
 ### 📋 Prerequisites
 
 Ensure the following packages are installed:
-
+```bash
 sudo apt update
 sudo apt install git cmake gfortran build-essential
 
 ####To download and compile NJOY2016:
-
+```bash
 git clone https://github.com/njoy/NJOY2016.git
 cd NJOY2016
 mkdir build
