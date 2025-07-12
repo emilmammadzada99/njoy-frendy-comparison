@@ -1,4 +1,4 @@
-input_folder = '/home/emil/compnjfr_copy/gnuplot/comp_out';
+input_folder = '/path/gnuplot/comp_out';
 output_folder_main = 'ace_plot';
 output_folder_only = 'ace_plot_only';
 
