@@ -13,7 +13,7 @@ The goal of this project is to:
 ## 🔧 Installation (Linux / Ubuntu)
 
 ### 📋 Prerequisites
-
+### NJOY2016
 Ensure the following packages are installed:
 ```bash
 sudo apt update
@@ -28,3 +28,6 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make -j$(nproc)
 
+###FRENDY
+Ensure the following packages are installed:
+```bash
