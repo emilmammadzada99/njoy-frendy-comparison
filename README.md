@@ -87,5 +87,16 @@ comp_out single_out
 ```
 ### Images 
 ![Comparison Plot-1](ace_plot/comp_result_tape30_0001_xs.png)
-![Comparison Plot-1](ace_plot_only/comp_result_tape30_0001_xs_only.png)
-![Comparison Plot-3](gnuplot/single_plot/plot/tape30_0001_xs.png)
+![Comparison Plot-2](ace_plot_only/comp_result_tape30_0001_xs_only.png)
+![Comparison Plot-3](gnuplot/comp_plot/ace_plot_only/comp_result_tape30_0001_xs_only.png)
+![Comparison Plot-4](gnuplot/single_plot/plot/tape30_0001_xs.png)
+
+## 📚 References
+
+- [NJOY2016 GitHub Repository](https://github.com/njoy/NJOY2016)
+- [FRENDY](https://rpg.jaea.go.jp/main/en/program_frendy/)
+- [ENDF/B-VIII.0 Nuclear Data Library](https://www.nndc.bnl.gov/endf-releases/)
+- [FRENDY-Exercises](https://rpg.jaea.go.jp/download/frendy/seminar/frendy_exercise_20240118.tar.gz)
+- [FRENDY-Installation](https://rpg.jaea.go.jp/download/frendy/seminar/03.FRENDY_installation_ver1.5.pdf)
+- [NJOY2016 Manual PDF](https://github.com/njoy/NJOY2016-manual/raw/master/njoy16.pdf)
+
