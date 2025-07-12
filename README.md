@@ -52,8 +52,8 @@ cd njoy-frendy-comparison/fr/
 NJOY runnig:
 ```bash
 cd njoy-frendy-comparison/nj/
-:~/fr$ cp n-092_U_238.endf tape20
-:~/fr$ njoy < n-092_U_238.dat
+:~/nj$ cp n-092_U_238.endf tape20
+:~/nj$ njoy < n-092_U_238.njoy
 ```
 Plotting :
 ```bash
@@ -62,4 +62,13 @@ cd njoy-frendy-comparison/
 :~/njoy-frendy-comparison$ ./compare.csh # created out directory in njoy-frendy-comparison for comparison
 :~/njoy-frendy-comparison$ chmod +x  plot_all.csh
 :~/njoy-frendy-comparison$ ./plot_all.csh # created ace_plot  ace_plot_only directory in njoy-frendy-comparison for comparison
+```
+Plotting Only Frendy Data:
+```bash
+cd njoy-frendy-comparison/fr_single/
+:~/njoy-frendy-comparison/fr_single$ cp -r ~/njoy-frendy-comparison/fr  ~/njoy-frendy-comparison/fr_single
+:~/njoy-frendy-comparison/fr_single$ chmod +x plot_single.csh
+:~/njoy-frendy-comparison/fr_single$ ./plot_single.csh #create only frendy data out directory
+:~/njoy-frendy-comparison/fr_single$ chmod +x plot_frendy.csh
+:~/njoy-frendy-comparison/fr_single$ ./plot_frendy.csh #create plot directory
 ```
