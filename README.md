@@ -55,7 +55,7 @@ cd njoy-frendy-comparison/nj/
 :~/nj$ cp n-092_U_238.endf tape20
 :~/nj$ njoy < n-092_U_238.njoy
 ```
-Plotting :
+Comparison Plotting :
 ```bash
 cd njoy-frendy-comparison/
 :~/njoy-frendy-comparison$ chmod +x compare.csh   
@@ -72,3 +72,20 @@ cd njoy-frendy-comparison/fr_single/
 :~/njoy-frendy-comparison/fr_single$ chmod +x plot_frendy.csh
 :~/njoy-frendy-comparison/fr_single$ ./plot_frendy.csh #create plot directory
 ```
+Comparison Plotting with Octave:
+```bash
+cd njoy-frendy-comparison/gnuplot/
+:~/njoy-frendy-comparison/gnuplot$ cp -r ~/njoy-frendy-comparison/out ~/njoy-frendy-comparison/gnuplot
+:~/njoy-frendy-comparison/gnuplot$ mv out comp_out
+:~/njoy-frendy-comparison/gnuplot$ cp -r ~/njoy-frendy-comparison/fr_single/out ~/njoy-frendy-comparison/gnuplot
+:~/njoy-frendy-comparison/gnuplot$ mv out single_out && ls
+comp_out single_out 
+:~/njoy-frendy-comparison/gnuplot$ mkdir comp_plot single_plot
+:~/njoy-frendy-comparison/gnuplot$ cd single_plot
+:~/njoy-frendy-comparison/gnuplot/single_plot$ octave plot_single.m  #plot directory created
+:~/njoy-frendy-comparison/gnuplot/comp_plot$ octave plot_xs.m #created ace_plot  ace_plot_only directory in njoy-frendy-comparison for comparison
+```
+### Images 
+![Comparison Plot-1](ace_plot/comp_result_tape30_0001_xs.png)
+![Comparison Plot-1](ace_plot_only/comp_result_tape30_0001_xs_only.png)
+![Comparison Plot-3](gnuplot/single_plot/plot/tape30_0001_xs.png)
