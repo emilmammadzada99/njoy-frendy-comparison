@@ -27,7 +27,7 @@ mkdir build
 cd build
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make -j$(nproc)
-
+```
 ###FRENDY
 Ensure the following packages are installed:
 ```bash
