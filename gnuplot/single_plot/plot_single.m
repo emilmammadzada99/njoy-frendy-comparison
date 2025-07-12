@@ -1,7 +1,7 @@
 % Octave script for plotting cross section data from .dat files
 % Replaces previous csh + gnuplot script with Octave native plotting
 
-input_folder = '/home/emil/compnjfr_copy/gnuplot/single_out';  % Absolute path to input folder
+input_folder = '/path/gnuplot/single_out';  % Absolute path to input folder
 output_folder = './plot';  % Output folder for plots
 
 % Create output folder if it does not exist
