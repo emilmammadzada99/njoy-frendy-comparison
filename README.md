@@ -100,6 +100,12 @@ The `tape30` file contains:
 - Reaction data for neutron interactions
 - Thermal scattering law (TSL) data (if applicable)
 
+### 🔑 Keywords
+
+`njoy` `frendy` `cross-section` `ENDF/B` `nuclear data` `ACE file` `MCNP` `SERPENT` `OpenMC` `gnuplot` `octave` `neutron transport` `data processing`
+
+---
+
 ### 🛠️ Usage
 
 `tape30` is compatible with various Monte Carlo transport codes:
