@@ -42,14 +42,14 @@ cd sample/run
 csh ./run_frendy.csh
 ```
 ### Running
-Frendy runnig :
+Frendy running :
 ```bash
 git clone https://github.com/emilmammadzada99/njoy-frendy-comparison.git
 cd njoy-frendy-comparison/fr/
 :~/fr$ cp n-092_U_238.endf tape20
 :~/fr$ ~/frendy_20241030/frendy/main/frendy.exe n-092_U_238.dat
 ```
-NJOY runnig:
+NJOY running:
 ```bash
 cd njoy-frendy-comparison/nj/
 :~/nj$ cp n-092_U_238.endf tape20
