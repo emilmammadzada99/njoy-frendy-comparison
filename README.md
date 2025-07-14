@@ -133,4 +133,4 @@ The `tape30` file contains:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15872841.svg)](https://doi.org/10.5281/zenodo.15872841)
 
-Mammadzada, E. (2025). *emilmammadzada99/njoy-frendy-comparison: Initial Public Release (v1.0)*. Zenodo. https://doi.org/10.5281/zenodo.15872841
+Mammadzada, E. (2025). *emilmammadzada99/njoy-frendy-comparison:A comparative study on nuclear data processed by NJOY and FRENDY initial Public Release (v1.0)*. Zenodo. https://doi.org/10.5281/zenodo.15872841
