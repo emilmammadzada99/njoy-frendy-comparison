@@ -129,3 +129,8 @@ The `tape30` file contains:
 - [FRENDY-Installation](https://rpg.jaea.go.jp/download/frendy/seminar/03.FRENDY_installation_ver1.5.pdf)
 - [NJOY2016 Manual PDF](https://github.com/njoy/NJOY2016-manual/raw/master/njoy16.pdf)
 
+## Zenodo DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15872841.svg)](https://doi.org/10.5281/zenodo.15872841)
+
+Mammadzada, E. (2025). *emilmammadzada99/njoy-frendy-comparison: Initial Public Release (v1.0)*. Zenodo. https://doi.org/10.5281/zenodo.15872841
